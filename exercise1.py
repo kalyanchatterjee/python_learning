@@ -10,4 +10,4 @@ def fizz_buzz(number):
         return(number)
 
 
-print(fizz_buzz(7))
+print(fizz_buzz(21))
