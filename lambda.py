@@ -30,3 +30,8 @@ print(x)
 
 # x is an object
 print(list(x))
+
+y = filter(lambda order: order[1] == 22, orders)
+print(list(y))
+
+# See list_comprehension.py for a better implementation
