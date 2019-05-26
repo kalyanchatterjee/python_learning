@@ -14,4 +14,6 @@ for letter in letters:
 
 # How to sort? Dictionary is unordered
 x = letterCounts.items()
+print(x)
+print("sorted:")
 print(sorted(x, key=lambda kv: kv[1], reverse=True)[0])
