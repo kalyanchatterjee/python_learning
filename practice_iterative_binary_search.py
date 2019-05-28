@@ -6,7 +6,7 @@ start = 0
 end = len(numbers) - 1
 return_index = -1
 
-input = 98
+input = 47
 
 while start <= end:
     mid = math.ceil((start + end)/2)
