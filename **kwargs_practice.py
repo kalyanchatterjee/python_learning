@@ -11,7 +11,9 @@ def kwargs_test(**kwargs):
 # print(point)
 
 # kwargs_test(point)
-# The above won't work because the kwargs must be in the format key="value". Even though the dictionary object is key:value, it still doesn't meet the key="value" expection and the dictionary item will be considered a positional argument.
+# The above won't work because the kwargs must be in the format key="value".
+# Even though the dictionary object is key:value, it still doesn't meet the key="value" expection
+# and the dictionary item will be considered a positional argument.
 kwargs_test(first_name="Kalyan", last_name="Chatterjee")
 print("-----")
 kwargs_test(first_name="Steve")

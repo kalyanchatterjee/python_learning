@@ -46,8 +46,11 @@ print(numbers[::-1])
 first, second, third, *other = numbers
 print(first)
 print(other)
+print("here ........")
 first, *other, last = numbers
 print(other)
+print(last)
+print(".............")
 
 
 # enumeration, returns a tuple -> (index, element)

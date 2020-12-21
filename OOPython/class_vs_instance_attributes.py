@@ -6,7 +6,6 @@ class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-    
 
     # Defining a class method
     @classmethod
@@ -23,6 +22,5 @@ point.draw()
 another = Point(3, 4)
 another.draw()
 
-yet_another_point = Point.zero();
+yet_another_point = Point.zero()
 yet_another_point.draw()
-
